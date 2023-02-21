@@ -21,7 +21,7 @@ builder.Services.AddSwaggerGen(options =>
     options.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1",
-        Title = "URPD.ONlineCardOperationDriverService",
+        Title = "URPD.OnlineCardOperationDriverService",
         Description = "Web-сервис для взаимодействия с IZProtokolDriver"
     });
     var xmlFileName = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
